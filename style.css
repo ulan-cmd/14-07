@@ -1,0 +1,28 @@
+form{
+    width: 500px;
+    border:2px solid blue;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+form input, form button, form textarea, form select{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+[type="text"], [type="number"], select{
+    padding: 10px 15px;
+}
+
+[type="submit"]{
+    padding: 10px 15px;
+    font-size: 19px;
+}
+
+.red-border{
+    border:1px solid red;
+}

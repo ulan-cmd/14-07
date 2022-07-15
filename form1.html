@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="form1" action="javascript:void(0)">
+    <h1>Первая формочка</h1>
+    <div class="form-control">
+        <input type="text" id="userName" name="userName" data-required placeholder="Введите имя">
+    </div>
+    <div class="form-control">
+        <input type="text" id="userSurname" name="userSurname" data-required placeholder="Введите фамилию">
+    </div>
+    <div class="form-control">
+        <input type="number" name="userPhoneNumber" data-required placeholder="Введите номер телефона">
+    </div>
+    <div class="form-control">
+        <select name="bank" id="bank">
+            <option value="">Выберите банк</option>
+            <option value="1">Optima</option>
+            <option value="2">Bakai</option>
+        </select>
+    </div>
+    <div class="form-control">
+        <button type="submit">Далее</button>
+    </div>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
